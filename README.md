@@ -21,9 +21,9 @@ git push
 
 git push origin master
 
-git subtree push --prefix=dist origin gh-pages
+git subtree push --prefix=build origin gh-pages
 
-git branch
+git branch -a
 
 git checkout -b gh-pages
 ```
