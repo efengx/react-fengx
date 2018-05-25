@@ -21,9 +21,17 @@ git push
 
 git push origin master
 
+git subtree add --prefix=build origin gh-pages
+
 git subtree push --prefix=build origin gh-pages
 
+git subtree pull --prefix=build origin gh-pages
+
 git branch -a
+
+git branch gh-pages
+
+git reset --hard
 
 git checkout -b gh-pages
 ```
