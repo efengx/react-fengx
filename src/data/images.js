@@ -440,8 +440,11 @@ export default [
         show: 'block',
         img: img15,
         style: color,
-        content: '向  ❤  平 一生一世',
-        description: '向上滑动，开始倾听',
+        list: [
+          { id: 1, content: '向  ❤  平', style: { fontSize: '3em' } },
+          { id: 2, content: '开心的一天！', style: { fontSize: '1.9em' } }
+        ],
+        description: '向上滑动',
         con: conStyle15,
         image: imageStyle15,
         cell: cellStyle15

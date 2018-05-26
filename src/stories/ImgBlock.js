@@ -66,7 +66,7 @@ class ImgBlock extends Component {
     }
     return (
       <Cell key={item.id}>
-        <PageContent>{item.id}</PageContent>
+        <PageContent />
       </Cell>
     );
   }
@@ -87,8 +87,18 @@ class ImgBlock extends Component {
       return (
         <PageContent style={item.con}>
           <div>
-            {item.list.map(thing => <div key={thing.id}>{thing.content}</div>)}
+            {item.list.map(thing => {
+              if (thing.style) {
+                return (
+                  <div key={thing.id} style={thing.style}>
+                    {thing.content}
+                  </div>
+                );
+              }
+              return <div key={thing.id}>{thing.content}</div>;
+            })}
           </div>
+          <Description>{item.description}</Description>
         </PageContent>
       );
     }

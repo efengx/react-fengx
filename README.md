@@ -40,3 +40,10 @@ git checkout -b gh-pages
 ```text
 yarn run storybook
 ```
+
+
+### github pages config
+- package.json
+```text
+"homepage": "https://efengx.github.io/react-fengx/",
+```
