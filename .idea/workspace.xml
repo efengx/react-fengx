@@ -3,12 +3,73 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4b533f-c20a-4be0-adb4-95902e3ea095" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.fb131a21.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.fb131a21.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.65027555.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.65027555.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b2e23f7c.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b2e23f7c.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/14915.ff3fa2df.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/319280.91274e69.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali0.ff7385d9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali10.d219a1c6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali11.7e14dbb3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali12.5e93e604.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali14.1a0cb491.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali16.51b4c061.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali18.82a5fb12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali19.9d956bde.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali2.e5276051.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali20.72a400f2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali21.54d72d16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali22.966728a1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali24.71297916.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali25.d1345211.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali29.f439b322.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali2_bg.5a302d6d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali30_1.1167b77c.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali31.532fadec.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali32.0d35f4ad.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali35.6c3846d8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali37.dfe0b6de.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali4.2d2ae9cc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali44.5acf3c00.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali45.66651fa7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali46.b1855662.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali49.ee9a9702.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali5.c9b9515f.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali50_2.902f701d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali51.249ee693.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali52.d6070347.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali53.2bd412f6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali57.23e5a1b6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali58.e5791b3e.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali59.77876518.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali6.9db5085f.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali60.a90c024d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali62.74cfa796.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali63.e388906d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali64.33c23fff.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali65.54a42b8a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali66.0bf2d5fd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali67.d2a81ffd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali68.d744406e.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali69.48037300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali71.ec599802.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali75.fbc4c2ac.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali77.141a6f17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/iali9.f6893b8a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/saveme.d41d8cd9.mp3" afterPath="$PROJECT_DIR$/public/saveme.mp3" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/data/images.js" afterPath="$PROJECT_DIR$/src/data/images.js" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Audio.js" afterPath="$PROJECT_DIR$/src/stories/Audio.js" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Footer.js" afterPath="$PROJECT_DIR$/src/stories/Footer.js" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ImgBlock.js" afterPath="$PROJECT_DIR$/src/stories/ImgBlock.js" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ImgFrame.js" afterPath="$PROJECT_DIR$/src/stories/ImgFrame.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,21 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -47,36 +98,12 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="258">
-                <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
+                <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stories/Footer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Audio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stories/Audio.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +129,10 @@
       <find>console</find>
       <find>width: 900%;</find>
       <find>conStyle15</find>
+      <find>conStyle41</find>
+      <find>conStyle58</find>
+      <find>conStyle56</find>
+      <find>1.75</find>
     </findStrings>
     <replaceStrings>
       <replace>./images/</replace>
@@ -134,12 +165,13 @@
         <option value="$PROJECT_DIR$/src/stories/Canvas.js" />
         <option value="$PROJECT_DIR$/src/slider.js" />
         <option value="$PROJECT_DIR$/src/stories/slider.js" />
-        <option value="$PROJECT_DIR$/src/stories/ImgFrame.js" />
-        <option value="$PROJECT_DIR$/src/stories/Footer.js" />
-        <option value="$PROJECT_DIR$/src/stories/ImgBlock.js" />
-        <option value="$PROJECT_DIR$/src/data/images.js" />
-        <option value="$PROJECT_DIR$/src/stories/Audio.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/stories/Audio.js" />
+        <option value="$PROJECT_DIR$/src/stories/ImgBlock.js" />
+        <option value="$PROJECT_DIR$/src/stories/Footer.js" />
+        <option value="$PROJECT_DIR$/src/stories/ImgFrame.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/data/images.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -225,11 +257,6 @@
               <item name="react-fengx" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-fengx" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-fengx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-fengx" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -259,6 +286,7 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/data/images" />
       <recent name="$PROJECT_DIR$/src/assect/data" />
       <recent name="$PROJECT_DIR$/src/assect" />
@@ -276,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.start">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:9999/react-fengx/build/index.html" />
     <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -324,10 +352,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="npm.deploy" />
-        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+        <item index="1" class="java.lang.String" itemvalue="npm.start" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="npm.eject" />
-        <item index="4" class="java.lang.String" itemvalue="npm.start" />
+        <item index="3" class="java.lang.String" itemvalue="npm.build" />
+        <item index="4" class="java.lang.String" itemvalue="npm.eject" />
       </list>
     </recent_temporary>
   </component>
@@ -351,26 +379,26 @@
       <workItem from="1527258750131" duration="938000" />
       <workItem from="1527261904901" duration="7645000" />
       <workItem from="1527297221792" duration="1000000" />
-      <workItem from="1527298285239" duration="17719000" />
+      <workItem from="1527298285239" duration="22291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30641000" />
+    <option name="totallyTimeSpent" value="35213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-59" width="1333" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25838414" sideWeight="0.5859375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16615854" sideWeight="0.66950595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39262187" sideWeight="0.5696095" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38603425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25838414" sideWeight="0.4140625" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33596838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16615854" sideWeight="0.33049405" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4929078" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15678525" sideWeight="0.4303905" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22661397" sideWeight="0.4303905" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -394,14 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -626,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -698,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stories/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -722,49 +726,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/images.js">
+    <entry file="file://$PROJECT_DIR$/src/stories/Audio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="446" column="26" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding>
-            <element signature="e#0#45#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stories/ImgBlock.js">
+    <entry file="file://$PROJECT_DIR$/src/data/images.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="94" column="15" lean-forward="true" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+        <state relative-caret-position="15030">
+          <caret line="1053" column="10" lean-forward="true" selection-start-line="1053" selection-start-column="10" selection-end-line="1053" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stories/ImgFrame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="794">
+          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="e#2001#2756#0" expanded="false" />
+            <element signature="e#2780#3082#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stories/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="45">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/ImgBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="16" column="94" lean-forward="false" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#showCell#0;n#ImgBlock#0" expanded="false" />
+            <element signature="n#!!block;n#showContent#0;n#ImgBlock#0" expanded="false" />
+            <element signature="n#!!block;n#showImage#0;n#ImgBlock#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stories/Audio.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +811,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="258">
-            <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
+            <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor>
@@ -791,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>

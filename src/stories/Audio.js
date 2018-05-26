@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import ReactAudioPlayer from 'react-audio-player';
 
-import saveme from '../assect/saveme.mp3';
 import musicImg from '../data/images/music.png';
 import muteImg from '../data/images/mute.png';
 
@@ -31,7 +30,8 @@ class Audio extends Component {
   }
 
   defaultState = {
-    rap: null
+    rap: null,
+    src: 'http://ofgmmwhdr.qnssl.com/qgd/music/saveme.mp3'
   };
 
   handleClick = () => {
@@ -60,7 +60,7 @@ class Audio extends Component {
         <Img src={this.state.imgPath} onClick={() => this.handleClick()} />
         <ReactAudioPlayer
           ref={element => (this.defaultState.rap = element)}
-          src={saveme}
+          src={this.defaultState.src}
           loop={loop}
           autoPlay={autoPlay}
         />

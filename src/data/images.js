@@ -85,7 +85,7 @@ const conStyle25 = {
   paddingTop: '5%',
   height: '15%',
   lineHeight: '2em',
-  fontSize: '1.75em',
+  fontSize: '1.2em',
   zIndex: 10,
   position: 'inherit'
 };
@@ -105,7 +105,7 @@ const conStyle35 = {
   paddingLeft: '.5em',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '3rem',
+  fontSize: '1.5rem',
   right: '1em'
 };
 const imageStyle35 = {
@@ -122,7 +122,7 @@ const conStyle41 = {
   paddingLeft: '.5em',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '3rem',
+  fontSize: '1.5rem',
   width: '100%',
   textAlign: 'center'
 };
@@ -143,7 +143,7 @@ const conStyle44 = {
   height: '15%',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '1.75em',
+  fontSize: '1.5em',
   width: '100%',
   textAlign: 'center',
   position: 'initial'
@@ -159,7 +159,7 @@ const conStyle45 = {
   paddingLeft: '.5em',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '3rem'
+  fontSize: '1.5rem'
 };
 
 // 46
@@ -189,7 +189,7 @@ const conStyle52 = {
   color: '#6e2d52',
   paddingLeft: '.5em',
   paddingBottom: '10%',
-  fontSize: '1.75em',
+  fontSize: '1.5em',
   bottom: 0,
   width: '100%',
   textAlign: 'center',
@@ -216,7 +216,7 @@ const cellStyle55 = {
 const conStyle56 = {
   color: '#613b3b',
   paddingTop: '1em',
-  fontSize: '2.5rem',
+  fontSize: '1.5rem',
   lineHeight: '3rem',
   position: 'initial',
   textAlign: 'center',
@@ -238,7 +238,7 @@ const conStyle58 = {
   marginBottom: '2em',
   color: '#613b3b',
   paddingTop: '1em',
-  fontSize: '2.5rem',
+  fontSize: '1.5rem',
   lineHeight: '3rem',
   position: 'initial',
   textAlign: 'center',
@@ -281,7 +281,7 @@ const conStyle72 = {
   height: '15%',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '1.75em',
+  fontSize: '1.5em',
   width: '100%',
   textAlign: 'center'
 };
@@ -306,7 +306,7 @@ const conStyle76 = {
   paddingLeft: '.5em',
   paddingTop: '5%',
   lineHeight: '2em',
-  fontSize: '3rem',
+  fontSize: '1.5rem',
   right: '5%'
 };
 
@@ -344,7 +344,7 @@ const conStyle84 = {
   color: '#6e2d52',
   top: '35%',
   lineHeight: '2em',
-  fontSize: '3rem',
+  fontSize: '1.5rem',
   width: '100%',
   textAlign: 'center'
 };
@@ -467,7 +467,10 @@ export default [
         show: 'block',
         img: img25,
         style: color,
-        content: '过去的向一直都是一个人生活，享受着孤独，也憧憬着爱情。',
+        list: [
+          { id: 1, content: '过去的向一直都是一个人生活' },
+          { id: 2, content: '享受着孤独，也憧憬着爱情' }
+        ],
         con: conStyle25,
         image: imageStyle25,
         cell: cellStyle25
@@ -539,7 +542,10 @@ export default [
         show: 'block',
         img: img44,
         style: color,
-        content: '但他依然乐观，微笑着，等待着',
+        list: [
+          { id: 1, content: '但他依然乐观' },
+          { id: 2, content: '微笑着，等待着' }
+        ],
         con: conStyle44,
         image: imageStyle25,
         cell: cellStyle44
@@ -569,7 +575,10 @@ export default [
         show: 'block',
         img: img47,
         style: color,
-        content: '并且面带阳光，自信的微笑',
+        list: [
+          { id: 1, content: '并且面带阳光' },
+          { id: 2, content: '自信的微笑' }
+        ],
         con: conStyle44,
         image: imageStyle46,
         cell: cellStyle47
@@ -589,7 +598,10 @@ export default [
         show: 'block',
         img: img49,
         style: color,
-        content: '但他每次都能勇敢的面对，随时准备接受生活的挑战。',
+        list: [
+          { id: 1, content: '但他每次都能勇敢的面对' },
+          { id: 2, content: '随时准备接受生活的挑战' }
+        ],
         con: conStyle41,
         image: imageStyle43,
         cell: cellStyle49
@@ -625,7 +637,10 @@ export default [
         show: 'block',
         img: img54,
         style: color,
-        content: '他去问大叔，我的爱情在哪里？大数告诉他，也许就在不远的地方',
+        list: [
+          { id: 1, content: '他去问大树，我的爱情在哪里？' },
+          { id: 2, content: '大树告诉他，也许就在不远的地方' }
+        ],
         con: conStyle41,
         image: imageStyle35,
         cell: cellStyle35
@@ -635,7 +650,10 @@ export default [
         show: 'block',
         img: img55,
         style: color,
-        content: '于是，向一个人继续向前走，走在茫茫的雪地上',
+        list: [
+          { id: 1, content: '于是，向一个人继续向前走' },
+          { id: 2, content: '走在茫茫的雪地上' }
+        ],
         con: conStyle41,
         image: imageStyle55,
         cell: cellStyle55
@@ -655,7 +673,10 @@ export default [
         show: 'block',
         img: img57,
         style: color,
-        content: '向喜欢平，因为平的出现，向脸上有更加灿烂的笑容',
+        list: [
+          { id: 1, content: '向喜欢平，因为平的出现' },
+          { id: 2, content: '向脸上有更加灿烂的笑容' }
+        ],
         con: conStyle41,
         image: imageStyle35,
         cell: cellStyle35
@@ -742,7 +763,10 @@ export default [
         show: 'block',
         img: img68,
         style: color,
-        content: '然后高兴地进入梦乡，希望梦到小红',
+        list: [
+          { id: 1, content: '然后高兴地进入梦乡' },
+          { id: 2, content: '希望梦到平' }
+        ],
         con: conStyle44,
         image: imageStyle56,
         cell: cellStyle68
@@ -836,7 +860,10 @@ export default [
         show: 'block',
         img: img87,
         style: color,
-        content: '如果没有平在身边，窗外就没有风景',
+        list: [
+          { id: 1, content: '如果没有平在身边' },
+          { id: 2, content: '窗外就没有风景' }
+        ],
         con: conStyle35,
         image: imageStyle55,
         cell: cellStyle82
@@ -878,7 +905,10 @@ export default [
         show: 'block',
         img: img94,
         style: color,
-        content: '爱情就像花草一样，需要用包容来浇灌',
+        list: [
+          { id: 1, content: '爱情就像花草一样' },
+          { id: 2, content: '需要用包容来浇灌' }
+        ],
         con: conStyle35,
         image: imageStyle55,
         cell: cellStyle86
@@ -888,7 +918,11 @@ export default [
         show: 'block',
         img: img95,
         style: color,
-        content: '现在，平要过我们第三周年的生日了，向开始为小红准备礼物',
+        list: [
+          { id: 1, content: '现在' },
+          { id: 2, content: '平要过我们第三周年的生日了' },
+          { id: 3, content: '向开始为平准备礼物' }
+        ],
         con: conStyle35,
         image: imageStyle55,
         cell: cellStyle86
@@ -917,8 +951,10 @@ export default [
         show: 'block',
         img: img97,
         style: color,
-        content:
-          '看着礼物准备好了，向好开心。因为他想象着平收到礼物时开心的样子',
+        list: [
+          { id: 1, content: '看着礼物准备好了，向好开心。' },
+          { id: 2, content: '因为他想象着平收到礼物时开心的样子' }
+        ],
         con: conStyle35,
         image: imageStyle88,
         cell: cellStyle91
@@ -928,7 +964,10 @@ export default [
         show: 'block',
         img: img98,
         style: color,
-        content: '接下来向也会继续努力，为了他和平的梦之城堡',
+        list: [
+          { id: 1, content: '接下来向也会继续努力。' },
+          { id: 2, content: '为了向和平的梦之城堡' }
+        ],
         con: conStyle35,
         image: imageStyle55,
         cell: cellStyle92
@@ -939,12 +978,9 @@ export default [
         img: img99,
         style: color,
         list: [
-          { id: 1, content: '向很幸福，因为他找到了平' },
-          {
-            id: 2,
-            content:
-              '他相信后面的每天都会是快乐的简简单单，体会着与平在一起的每一个时刻'
-          }
+          { id: 1, content: '向很幸福，因为他找到了平。' },
+          { id: 2, content: '他相信后面的每天都会是快乐的简简单，' },
+          { id: 3, content: '体会着与平在一起的每一个时刻。' }
         ],
         con: conStyle35,
         image: imageStyle55,
@@ -1012,7 +1048,10 @@ export default [
         show: 'block',
         img: img05,
         style: color,
-        content: '向和平的故事会一直继续下去。无论精彩,平淡都会是他们喜欢的。',
+        list: [
+          { id: 1, content: '向和平的故事会一直继续下去。' },
+          { id: 2, content: '无论精彩,平淡都会是他们喜欢的。' }
+        ],
         con: conStyle35,
         image: imageStyle99,
         cell: cellStyle99

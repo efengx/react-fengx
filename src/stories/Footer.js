@@ -4,6 +4,7 @@ import Audio from './Audio';
 import Canvas from './Canvas';
 
 const Wrapper = styled.div`
+  display: ${props => props.showFooter}
   position: absolute;
   z-index: 1000;
   bottom: 3rem;
@@ -19,10 +20,10 @@ class Footer extends Component {
   };
 
   render() {
-    const { data, currentId, cssOpacity, onClickFun } = this.props;
+    const { showFooter, data, currentId, cssOpacity, onClickFun } = this.props;
 
     return (
-      <Wrapper>
+      <Wrapper showFooter={showFooter}>
         <Audio
           loop={this.audioProps.loop}
           autoPlay={this.audioProps.autoPlay}

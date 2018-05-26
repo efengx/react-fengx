@@ -14,8 +14,9 @@ const ImgWall = styled.div`
   width: 100%;
   height: 100%;
   position: absolute;
-  transform: translateX(${props => props.x}%) translateY(${props => props.y}%);
-  transform-origin: 0 0;
+  transform: translate(${props => props.x}%, ${props => props.y}%)
+    scale(${props => props.sx}, ${props => props.sy});
+  // transform-origin: 0 0;
 `;
 
 const Row = styled.div`
@@ -117,22 +118,36 @@ class ImgBlock extends Component {
   }
 
   render() {
-    const { data, startX, startY, endX, endY } = this.props;
+    const {
+      data,
+      startX,
+      startY,
+      endX,
+      endY,
+      startScaleX,
+      startScaleY,
+      endScaleX,
+      endScaleY
+    } = this.props;
 
     return (
       <Wrapper>
         <Motion
           defaultStyle={{
             x: startX,
-            y: startY
+            y: startY,
+            sx: startScaleX,
+            sy: startScaleY
           }}
           style={{
             x: spring(endX),
-            y: spring(endY)
+            y: spring(endY),
+            sx: spring(endScaleX),
+            sy: spring(endScaleY)
           }}
         >
           {style => (
-            <ImgWall x={style.x} y={style.y}>
+            <ImgWall x={style.x} y={style.y} sx={style.sx} sy={style.sy}>
               {data.map(items => (
                 <Row key={items.row_id}>
                   {items.row.map(item => {

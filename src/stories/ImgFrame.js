@@ -26,34 +26,65 @@ class ImgFrame extends Component {
       startX: 0,
       startY: 0,
       endX: -400,
-      endY: 0
+      endY: 0,
+      startScaleX: 1,
+      startScaleY: 1,
+      endScaleX: 1,
+      endScaleY: 1,
+      showFooter: 'block'
     };
   }
 
   follow = deltaY => {
-    const currentArr = String(this.state.currentId).split('');
-    const endY = -(currentArr[0] - 1) * 100;
-    this.setState({
-      endY: endY - deltaY
-    });
+    if (this.state.currentId) {
+      console.log(this.state.currentId);
+      const currentArr = String(this.state.currentId).split('');
+      const endY = -(currentArr[0] - 1) * 100;
+      this.setState({
+        endY: endY - deltaY
+      });
+    }
   };
 
   slide = deltaY => {
-    let id = this.state.currentId;
-    if (Math.abs(deltaY) === 100) {
-      let path = 'down';
-      if (deltaY > 0) {
-        path = 'up';
+    if (this.state.currentId) {
+      let id = this.state.currentId;
+      if (Math.abs(deltaY) === 100) {
+        let path = 'down';
+        if (deltaY > 0) {
+          path = 'up';
+        }
+        id = this.nextId(this.state.currentId, path);
       }
-      id = this.nextId(this.state.currentId, path);
-    }
 
-    if (id > 0) {
-      const currentArr = String(id).split('');
+      if (id > 0) {
+        const currentArr = String(id).split('');
+        this.setState({
+          currentId: id,
+          endX: -(currentArr[1] - 1) * 100,
+          endY: -(currentArr[0] - 1) * 100
+        });
+      } else if (id === 0) {
+        // end page
+        this.setState({
+          currentId: id,
+          endX: -40,
+          endY: -40,
+          endScaleX: 0.1,
+          endScaleY: 0.1,
+          showFooter: 'none'
+        });
+      }
+    } else if (this.state.currentId === 0) {
       this.setState({
-        currentId: id,
-        endX: -(currentArr[1] - 1) * 100,
-        endY: -(currentArr[0] - 1) * 100
+        currentId: 15,
+        endX: -400,
+        endY: 0,
+        startScaleX: 0.1,
+        startScaleY: 0.1,
+        endScaleX: 1,
+        endScaleY: 1,
+        showFooter: 'block'
       });
     }
   };
@@ -78,7 +109,7 @@ class ImgFrame extends Component {
         currentArr[0] -= 1;
         currentArr[1] = 9;
       } else {
-        return 0;
+        return -1;
       }
     }
 
@@ -112,8 +143,13 @@ class ImgFrame extends Component {
           startY={this.state.startY}
           endX={this.state.endX}
           endY={this.state.endY}
+          startScaleX={this.state.startScaleX}
+          startScaleY={this.state.startScaleY}
+          endScaleX={this.state.endScaleX}
+          endScaleY={this.state.endScaleY}
         />
         <Footer
+          showFooter={this.state.showFooter}
           currentId={this.state.currentId}
           data={this.state.lib}
           cssOpacity={this.state.cssOpacity}
