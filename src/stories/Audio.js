@@ -4,6 +4,7 @@ import ReactAudioPlayer from 'react-audio-player';
 
 import musicImg from '../data/images/music.png';
 import muteImg from '../data/images/mute.png';
+import music from '../assect/saveme.mp3';
 
 const Wrapper = styled.div`
   background-image: url(${props => props.img}});
@@ -30,8 +31,8 @@ class Audio extends Component {
   }
 
   defaultState = {
-    rap: null,
-    src: 'https://github.com/efengx/react-fengx/blob/master/public/saveme.mp3'
+    rap: null
+    // src: music
   };
 
   handleClick = () => {
@@ -60,7 +61,7 @@ class Audio extends Component {
         <Img src={this.state.imgPath} onClick={() => this.handleClick()} />
         <ReactAudioPlayer
           ref={element => (this.defaultState.rap = element)}
-          src={this.defaultState.src}
+          src={music}
           loop={loop}
           autoPlay={autoPlay}
         />

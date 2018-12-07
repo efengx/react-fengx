@@ -50,5 +50,11 @@ yarn run storybook
 
 ### build
 ```bash
+npm run build
 npm run deploy
+
+OR
+
+yarn run build
+yarn run deploy
 ```
