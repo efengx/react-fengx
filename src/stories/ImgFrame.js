@@ -37,7 +37,6 @@ class ImgFrame extends Component {
 
   follow = deltaY => {
     if (this.state.currentId) {
-      console.log(this.state.currentId);
       const currentArr = String(this.state.currentId).split('');
       const endY = -(currentArr[0] - 1) * 100;
       this.setState({
