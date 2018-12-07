@@ -47,3 +47,8 @@ yarn run storybook
 ```json
 "homepage": "https://efengx.github.io/react-fengx/",
 ```
+
+### build
+```bash
+npm run deploy
+```
