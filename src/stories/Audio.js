@@ -31,7 +31,7 @@ class Audio extends Component {
 
   defaultState = {
     rap: null,
-    src: 'http://ofgmmwhdr.qnssl.com/qgd/music/saveme.mp3'
+    src: 'https://github.com/efengx/react-fengx/blob/master/public/saveme.mp3'
   };
 
   handleClick = () => {

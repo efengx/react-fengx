@@ -4,7 +4,7 @@ Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ### github
-```text
+```bash
 git remote add origin https://github.com/efengx/react-fengx.git
 
 git push origin master
@@ -37,13 +37,13 @@ git checkout -b gh-pages
 ```
 
 ### storybook
-```text
+```bash
 yarn run storybook
 ```
 
 
 ### github pages config
 - package.json
-```text
+```json
 "homepage": "https://efengx.github.io/react-fengx/",
 ```

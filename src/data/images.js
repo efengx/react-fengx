@@ -227,7 +227,8 @@ const imageStyle56 = {
   height: 'auto',
   margin: '0 auto',
   position: 'initial',
-  display: 'block'
+  display: 'block',
+  maxWidth: '100%'
 };
 const cellStyle56 = {
   backgroundColor: '#e5f0f2'
@@ -283,7 +284,9 @@ const conStyle72 = {
   lineHeight: '2em',
   fontSize: '1.5em',
   width: '100%',
-  textAlign: 'center'
+  textAlign: 'center',
+  maxWidth: '100%',
+  position: 'relative'
 };
 const cellStyle72 = {
   backgroundColor: '#ffc8c5'
@@ -417,12 +420,19 @@ const cellStyle98 = {
 };
 
 // 99
+const conStyle99 = {
+  paddingTop: '5%',
+  paddingLeft: '0.5em',
+  lineHeight: '2em',
+  right: '1em',
+  color: '#6e2d52',
+  zIndex: 100
+};
 const imageStyle99 = {
   width: 'auto',
   height: '100%',
   right: 0
 };
-
 const cellStyle99 = {
   backgroundColor: '#fffef9'
 };
@@ -1049,10 +1059,19 @@ export default [
         img: img05,
         style: color,
         list: [
-          { id: 1, content: '向和平的故事会一直继续下去。' },
-          { id: 2, content: '无论精彩,平淡都会是他们喜欢的。' }
+          {
+            id: 1,
+            content: '向和平的故事会一直继续下去。',
+            style: { fontSize: '1.5em' }
+          },
+          {
+            id: 2,
+            content: '无论精彩,平淡都会是他们喜欢的。',
+            style: { fontSize: '1.5em' }
+          }
         ],
-        con: conStyle35,
+        description: '还没结束哦，继续滑动',
+        con: conStyle99,
         image: imageStyle99,
         cell: cellStyle99
       }

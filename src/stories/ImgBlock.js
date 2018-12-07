@@ -84,7 +84,7 @@ class ImgBlock extends Component {
       );
     } else if (item.content) {
       return <PageContent style={item.con}>{item.content}</PageContent>;
-    } else if (item.list) {
+    } else if (item.list && item.description) {
       return (
         <PageContent style={item.con}>
           <div>
@@ -100,6 +100,23 @@ class ImgBlock extends Component {
             })}
           </div>
           <Description>{item.description}</Description>
+        </PageContent>
+      );
+    } else if (item.list) {
+      return (
+        <PageContent style={item.con}>
+          <div>
+            {item.list.map(thing => {
+              if (thing.style) {
+                return (
+                  <div key={thing.id} style={thing.style}>
+                    {thing.content}
+                  </div>
+                );
+              }
+              return <div key={thing.id}>{thing.content}</div>;
+            })}
+          </div>
         </PageContent>
       );
     }
